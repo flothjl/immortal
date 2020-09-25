@@ -10,7 +10,7 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        myscript=cli.cli:entry_point
+        immortal=cli.cli:entry_point
         myarg=cli_argparse.cli:entry_point
     ''',
 )

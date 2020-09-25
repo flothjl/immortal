@@ -1,0 +1,9 @@
+- type: zsh
+  base-path: /Users/joshuafloth/Developer/immortal/config/dotfiles/
+  files:
+    - path: ~/.dotfiles/zshrc
+      destination: ~/.zshrc
+  name: oh-my-zsh
+  install-file: "install.sh"
+  themes:
+    - install-file: "p10k.sh"
