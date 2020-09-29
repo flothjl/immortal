@@ -19,4 +19,11 @@ Example config.yaml
   install-file: "install.sh"
   themes:
     - install-file: "p10k.sh"
+- type: generic
+  files:
+    - path: ~/.dotfiles/ssh/config
+      destination: ~/.ssh/config
+```
+
+<small>Cheers 🍻</small>
 
